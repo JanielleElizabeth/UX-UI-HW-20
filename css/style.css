@@ -1,0 +1,80 @@
+body {
+    background-image: url("../Images/HeroBackgroundCaseStudy.png");
+    background-size: 100%;
+    height: calc(100vh - 25px);
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+
+nav {
+    display: flex;
+    max-height: 100px;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    padding-top: 1%;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+    color: #ffffff;
+    font-size: 22;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.16em;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'lato', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: lighter;
+
+}
+
+a{
+    width: 10vw;
+    padding: 1vw;
+
+}
+.logo {
+    padding: 1%;
+    width: 100%;
+
+}
+
+.large-logo {
+    width: 60%;
+    align-items: center;
+}
+
+.icons {
+    width: 40%;
+    align-items: center;
+
+}
+
+footer {
+    background-image: url("./../Images/FooterArt.png");
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+}
+
+.footer-content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
