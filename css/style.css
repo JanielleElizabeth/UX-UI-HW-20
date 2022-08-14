@@ -213,6 +213,38 @@ h3{
     text-transform: uppercase;
 }
 
+.jb-button {
+    text-transform: uppercase;
+    padding: 20px 24px;
+    gap: 10px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.16em;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #BF5554;
+    color: #ffffff;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+
+.jb-button:hover{
+    background-color: #E9ABAB;
+    color: #000;
+}
+.prototype-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .card-group{
 margin: 120px;
 
