@@ -3,7 +3,6 @@ body {
     background-size: 100%;
     height: calc(100vh - 25px);
     background-repeat: no-repeat;
-    margin: 0;
 
 }
 
@@ -14,22 +13,25 @@ nav {
 }
 
 ul {
+    margin-top: 10px;
+    padding-top: 10px;
     display: flex;
-    width: 40%;
-    justify-content: space-evenly;
-    margin-top: 3%;
-    padding-top: 1%;
+    justify-self: flex-end;
+    position: absolute;
+    right: 10px;
+    top: 0px;
 }
 
 li {
     list-style: none;
-    display: inline-flex;
     color: #ffffff;
     font-size: 22;
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 0.16em;
     line-height: 30px;
     text-transform: uppercase;
+    padding: 5px 20px;
+    display: inline;
 }
 
 h1 {
@@ -41,15 +43,97 @@ h1 {
 
 }
 
+.Case-Study-Title{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    line-height: 50px;
+    font-size: 44px;
+    margin-top: 100px;
+
+}
+
+.title-subhead{
+    font-family: 'lato', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.16em;
+    line-height: 50px;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.header-image{
+    width: 800px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.header-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.herospace{
+    margin-bottom: 190px;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+p {
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    color: #000000;
+    line-height: 30px;
+    margin: 20px 160px
+}
+
 a{
     width: 10vw;
     padding: 1vw;
 
 }
-.logo {
-    padding: 1%;
-    width: 100%;
 
+.logo {
+    width: 100px;
+    padding: 1%;
+    justify-self: flex-start;
+    margin-left: 40px;
+    margin-right: auto;
+    display: block;
+    height: auto;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
 }
 
 .large-logo {
@@ -63,6 +147,29 @@ a{
 
 }
 
+.fullwpix{
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.eightywpix{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 150px;
+    margin-top: 60px;
+
+}
+
+.sixtywpix {
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-bottom: 150px;
+    margin-top: 60px;
+
+}
+
 footer {
     background-image: url("./../Images/FooterArt.png");
     background-repeat: no-repeat;
@@ -72,9 +179,97 @@ footer {
     margin-top: 0%;
 }
 
+.dividerpng{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+
+}
+
 .footer-content {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
 
+}
+
+.additional-text{
+    margin-bottom: 80px;
+    margin-top: -40px;
+}
+
+.card-text{
+    margin:0;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+h3{
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+}
+
+.card-group{
+margin: 120px;
+
+}
+.card{
+    margin:20px;
+
+}
+
+.additional-img{
+    margin-top: 100px;
+}
+.row-text{
+    display: flex;
+    margin-bottom: 100px;
+}
+.flex-text1{
+    margin-left: 150px;
+    margin-right: 50px;
+}
+.flex-text2{
+    margin-right: 150px;
+    margin-left: 50px;
+}
+
+.questionimg{
+    margin-top: 50px;
+}
+
+.typographyimg{
+    width: 500px;
+}
+
+.typotext{
+margin-left: 150px;
+margin-right: 150px;
+margin-top: -30px;
+}
+
+.final-subhead{
+text-align: center;
+margin-bottom: 50px;
+}
+
+#reflection{
+    margin-bottom: 0px;
+}
+.nav-image {
+    display: flex;
+    flex-direction: row;
+}
+.nav-link {
+    margin: 10px;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+.quizquestion{
+    margin-bottom: 60px;
 }
